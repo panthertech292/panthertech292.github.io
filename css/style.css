@@ -9,3 +9,7 @@ body{
     background-color: #CBC6B0;
     margin: 0;
 }
+
+.flexContainer {
+    display: flex;
+}
