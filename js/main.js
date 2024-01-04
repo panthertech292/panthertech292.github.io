@@ -5,6 +5,8 @@ const maxMobileWidth = 800;
 
 
 function setPage() {
+    //Update the current window width.
+    windowWidth = window.innerWidth;
     //Mobile Layout
     if(windowWidth < maxMobileWidth){
         hideNavBar();
@@ -27,7 +29,7 @@ function hideNavBar(){
 }
 function toggleNavBar(){
     //Pick any element see if it is hidden
-    if (navBarElements[0].style.display == "none"){
+    if (navBarElements[1].style.display == "none"){
         //If hidden, show it.
         showNavBar();
     }else{
