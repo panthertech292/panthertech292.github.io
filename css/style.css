@@ -13,7 +13,7 @@ body{
 .navContainer {
     display: flex;
     flex-direction: row;
-    background-color: DodgerBlue;
+    background-color: #4C4940;
 }
 @media (max-width: 800px) {
     .navContainer {
@@ -21,7 +21,7 @@ body{
     }
   }
 .navContainer > div{
-    background-color: #f1f1f1;
+    background-color: #CFCAB5;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
@@ -31,4 +31,13 @@ body{
     height: 5px;
     background-color: black;
     margin: 6px 0;
+}
+
+h1{
+    text-align: center;
+    color: #4C4940;
+}
+p{
+    color: #4C4940;
+    margin:0;
 }
