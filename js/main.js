@@ -26,5 +26,7 @@ function hideNavBar(){
 }
 
 
-
+//Init Page
 setPage();
+//Event Listeners
+window.addEventListener("resize", setPage);
