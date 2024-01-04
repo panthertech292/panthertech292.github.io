@@ -10,8 +10,12 @@ function setPage() {
     //Mobile Layout
     if(windowWidth < maxMobileWidth){
         hideNavBar();
+        //Show toggle button in case hidden
+        navToggleButton.style.display = "flex";
     }else{ //Desktop Layout
         showNavBar();
+        //Hide the toggle button, no point in it.
+        navToggleButton.style.display = "none";
     }
 }
 
