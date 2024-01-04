@@ -1,4 +1,5 @@
 let navBarElements = document.getElementsByClassName("navChild");
+let navToggleButton = document.getElementById("toggleMenuButton");
 let windowWidth = window.innerWidth;
 const maxMobileWidth = 800;
 
@@ -24,9 +25,19 @@ function hideNavBar(){
         navBarElements[i].style.display = "none";
     }
 }
-
+function toggleNavBar(){
+    //Pick any element see if it is hidden
+    if (navBarElements[0].style.display == "none"){
+        //If hidden, show it.
+        showNavBar();
+    }else{
+        //The nav bar must be visible, so hide it.
+        hideNavBar();
+    }
+}
 
 //Init Page
 setPage();
 //Event Listeners
 window.addEventListener("resize", setPage);
+navToggleButton.addEventListener("click", toggleNavBar);
