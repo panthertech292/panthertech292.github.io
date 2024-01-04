@@ -37,7 +37,13 @@ h1{
     text-align: center;
     color: #4C4940;
 }
+h3{
+    text-align: center;
+    color: #4C4940;
+    margin:0;
+}
 p{
+    text-align: center;
     color: #4C4940;
     margin:0;
 }
