@@ -11,7 +11,7 @@ function setPage() {
     if(windowWidth < maxMobileWidth){
         hideNavBar();
         //Show toggle button in case hidden
-        navToggleButton.style.display = "flex";
+        navToggleButton.style.display = "initial";
     }else{ //Desktop Layout
         showNavBar();
         //Hide the toggle button, no point in it.
