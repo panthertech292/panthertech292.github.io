@@ -12,8 +12,14 @@ body{
 
 .flexContainer {
     display: flex;
+    flex-direction: row;
     background-color: DodgerBlue;
 }
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
 .flexContainer > div{
     background-color: #f1f1f1;
     margin: 10px;
