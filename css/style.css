@@ -10,17 +10,17 @@ body{
     margin: 0;
 }
 
-.flexContainer {
+.navContainer {
     display: flex;
     flex-direction: row;
     background-color: DodgerBlue;
 }
 @media (max-width: 800px) {
-    .flexContainer {
+    .navContainer {
       flex-direction: column;
     }
   }
-.flexContainer > div{
+.navContainer > div{
     background-color: #f1f1f1;
     margin: 10px;
     padding: 20px;
