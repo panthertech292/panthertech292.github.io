@@ -54,7 +54,9 @@ p{
     color: #4C4940;
     margin:0;
 }
-li{
-    text-align: center;
+li{ 
     color: #4C4940;
+}
+ul{
+    text-align: center;
 }
