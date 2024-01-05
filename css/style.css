@@ -60,3 +60,10 @@ li{
 ul{
     text-align: center;
 }
+#sponsorDiv{
+    text-align: center;
+}
+#sponsorDiv > ul{
+    display: inline-block;
+    text-align: left;
+}
