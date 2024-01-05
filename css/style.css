@@ -15,11 +15,18 @@ body{
     flex-direction: row;
     background-color: #4C4940;
 }
+/*Changes for mobile devices*/
 @media (max-width: 800px) {
     .navContainer {
       flex-direction: column;
     }
-  }
+}
+/*Changes for desktop devices. In reality, I probably should only have one of these*/
+@media (min-width: 801px) {
+    h1{
+        font-size: 2em;
+    }
+}
 .navContainer > div{
     background-color: #CFCAB5;
     margin: 10px;
@@ -46,4 +53,8 @@ p{
     text-align: center;
     color: #4C4940;
     margin:0;
+}
+li{
+    text-align: center;
+    color: #4C4940;
 }
