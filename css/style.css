@@ -69,3 +69,11 @@ li{
     text-align: left;
     font-size: 2em;
 }
+#faqDiv{
+    text-align: left;
+}
+#faqDiv > ol{
+    display: inline-block;
+    text-align: left;
+    font-size: 2em;
+}
