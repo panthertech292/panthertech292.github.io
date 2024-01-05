@@ -54,6 +54,9 @@ p{
     color: #4C4940;
     margin:0;
 }
+a{
+    color: #4C4940;
+}
 li{ 
     color: #4C4940;
 }
@@ -66,4 +69,5 @@ ul{
 #sponsorDiv > ul{
     display: inline-block;
     text-align: left;
+    font-size: 2em;
 }
