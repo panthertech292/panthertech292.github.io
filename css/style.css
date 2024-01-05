@@ -77,3 +77,6 @@ li{
     text-align: left;
     font-size: 2em;
 }
+#faqDiv > ul{
+    font-size: 1.2em;
+}
